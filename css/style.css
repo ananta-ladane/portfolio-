@@ -229,7 +229,7 @@ body {
 
 .di2-hero {
     width: 80%;
-    
+
     border: 2px solid rgb(0 245 255 / 0.2);
 
     margin: 20px auto;
@@ -1023,10 +1023,18 @@ body {
     font-size: 14px;
 }
 
+.cont-icon3 p a {
+    color: white;
+}
+
 .cont-icon3 p:hover {
     color: black;
     background-color: #00f5ff;
     transform: translateY(-10px);
+}
+
+.cont-icon3 p a:hover {
+    color: black;
 }
 
 
