@@ -148,15 +148,18 @@ const sendMail = (e) => {
     let btn = document.getElementById("btn");
     btn.disabled = true;
 
-    let parms = {
+    const parms = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
         message: document.getElementById("message").value,
 
     }
 
+    console.log(parms);
+
     if (!parms.name || !parms.email || !parms.message) {
         alert("plz fill the all detiles")
+        return;
     } else {
 
         emailjs.send("service_d747lec", "template_nj0y0bc", parms).then((success) => {
