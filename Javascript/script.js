@@ -145,8 +145,8 @@ const sendMail = (e) => {
 
     e.preventDefault();
 
-    let btn = document.getElementById("btn");
-    btn.disabled = true;
+    // let btn = document.getElementById("btn");
+    // btn.disabled = true;
 
     const parms = {
         name: document.getElementById("name").value,
