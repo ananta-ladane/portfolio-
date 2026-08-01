@@ -155,10 +155,9 @@ const sendMail = (e) => {
 
     }
 
-    if (parms === "") {
+    if (!parms.name || !parms.email || !parms.message) {
         alert("plz fill the all detiles")
     } else {
-
 
         emailjs.send("service_d747lec", "template_nj0y0bc", parms).then((success) => {
             console.log(success)
