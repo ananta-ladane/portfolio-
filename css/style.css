@@ -797,11 +797,16 @@ body {
 }
 
 .btn4:hover {
-    color: black;
+
     background-color: #00F5FF;
-    box-shadow: 0 0 3px white;
+    /* box-shadow: 0 0 3px white; */
     transform: translateY(-10px);
 
+}
+
+.btn4 a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .btn5 {
@@ -820,10 +825,15 @@ body {
 }
 
 .btn5:hover {
-    color: #00F5FF;
+
     /* background-color: #0ad5dc; */
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 3px white;
     transform: translateY(-10px);
+}
+
+.btn5 a:hover {
+    color: #00F5FF;
+    text-decoration: none;
 }
 
 .sect4 {
@@ -975,7 +985,7 @@ body {
     color: white;
     text-decoration: none;
     line-height: 0;
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
 
 
 
@@ -1004,9 +1014,9 @@ body {
 
 }
 
-.sub4-cont p .pune {
+/* .sub4-cont p .pune {
     font-family: var(--main-font)
-}
+} */
 
 
 
