@@ -202,8 +202,8 @@ body {
 }
 
 .btn2:hover {
-    background-color: rgb(59 130 246 / 0.5);
-    box-shadow: 0 0 5px white;
+    background-color: #00F5FF;
+    box-shadow: 0 0 3px white;
 }
 
 .btn3 {
