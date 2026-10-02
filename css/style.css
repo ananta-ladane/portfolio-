@@ -867,7 +867,7 @@ body {
 
 .timeline {
     position: relative;
-    padding-left: 45px;
+    padding-left: 32px;
     /* space for line */
 }
 
@@ -887,10 +887,77 @@ body {
     position: relative;
     background: rgba(255, 255, 255, 0.03);
     padding: 20px;
-    height: 220px;
+    height: 230px;
     border-radius: 12px;
+
+}
+
+.sub2-sect4 p:nth-child(1) {
+    color: rgb(0 245 255);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.sub2-sect4 p:nth-child(2) {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sub2-sect4 p:nth-child(3) {
+    color: #7A00ff;
+}
+
+.sub2-sect4 p:nth-child(4) {
     color: white;
 }
+
+.sub3-sect4 p:nth-child(1) {
+    color: rgb(0 245 255);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.sub3-sect4 p:nth-child(2) {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sub3-sect4 p:nth-child(3) {
+    color: #7A00ff;
+}
+
+
+.sub4-sect4 p:nth-child(1) {
+    color: rgb(0 245 255);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.sub4-sect4 p:nth-child(2) {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sub4-sect4 p:nth-child(3) {
+    color: #7A00ff;
+}
+
+.sub5-sect4 p:nth-child(1) {
+    color: rgb(0 245 255);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.sub5-sect4 p:nth-child(2) {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sub5-sect4 p:nth-child(3) {
+    color: #7A00ff;
+}
+
+
 
 /* Dot */
 .sub1-sect4::before {
@@ -982,8 +1049,6 @@ body {
     text-decoration: none;
     line-height: 0;
     /* font-family: var(--main-font); */
-
-
 
 }
 
@@ -1233,7 +1298,7 @@ footer {
     }
 
     .fig {
-        height: 590px;
+        height: 480px;
     }
 
     .fig img {
@@ -1592,9 +1657,9 @@ footer {
     }
 
 
-    .di1-sect1 p{
-       text-align: justify;
-       margin-top: 15px;
+    .di1-sect1 p {
+        text-align: justify;
+        margin-top: 15px;
     }
 
     .clin1 {
@@ -1650,7 +1715,7 @@ footer {
     }
 
     .di2-sect3 .fig {
-        height: 590px;
+        height: 500px;
     }
 
     .sub2-figc {
@@ -1765,6 +1830,11 @@ footer {
         padding: 0px 5px 2px 5px;
     }
 
+    .ul li a {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
 
 
     .btn1 {
@@ -1806,11 +1876,15 @@ footer {
     }
 
     .sub1-sect2 {
-        width: 28%;
+        width: 22%;
     }
 
     .di2-sect3 .fig {
-        height: 620px;
+        height: 480px;
+    }
+
+    .fig img {
+        height: 300px
     }
 
     .sub3-sect4::after {
@@ -1852,8 +1926,8 @@ footer {
         height: 70px;
     }
 
-    .di2-sect1{
-        margin-top:80px
+    .di2-sect1 {
+        margin-top: 80px
     }
 
     .log img {
@@ -1887,8 +1961,8 @@ footer {
     }
 
     .sub1-sect2 {
-        width: 26%;
-        height: 200px;
+        width: 21%;
+        height: 170px;
         margin-top: 30px;
     }
 
@@ -1898,12 +1972,11 @@ footer {
     }
 
     .di2-sect3 .fig {
-        height: 620px;
         width: 30%;
     }
 
     .fig img {
-        height: 270px;
+        height: 250px;
     }
 
     .sect4 {
